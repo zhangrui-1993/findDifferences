@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--定义 title keywords description信息 start-->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="screen-orientation"content="portrait"/>
+    <title>活动规则</title>
+	<!--引入外部样式-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+	</script>
+</head>
+<body id="ruleBut">
+	<article class="text_l">
+		<div class="cont_wrap">
+		<div class="ruleBut_detail">
+			<h3><img src="images/ruleMainTile.png"></h3>
+			<div class="time1">
+				活动时间：2016年12月10日-12月15日
+			</div>
+			<div class="one_p">1、游戏共有6关，用户参与游戏，需找出每关图片中的5处不同</div>
+			<div class="one_p">2、成功通过第6关后用户将无法再次进行游戏，此时后台将记录用户本次游戏所用时间，并根据此时间进行排名</div>
+			<div class="one_p">3、最终根据用户用时排名，得出各项大奖，如出现并列名次，将根据用户的通关时间的先后顺序进行顺延</div>
+		</div>
+		<div class="cy_sort">
+			<h3><img src="images/ruleJoin.png"></h3>
+			<ul class="six_p">
+				<li class="clearfix">
+					<span class="lf text_p">1、通过e达福微信文章点击“阅读原文”进入活动页面</span>
+				</li>
+				<li class="clearfix">
+					<span class="lf text_p">2、在e达福官方微信菜单栏点击“全民福利“中的“找不同”按钮</span>
+				</li>
+			</ul>
+		</div>
+		<div class="cy_sort">
+			<h3><img src="images/ruleSet.png"></h3>
+			<ul class="six_p mt2">
+				<li class="clearfix">
+					<span class="lf text_p">一等奖(1名)：200元京东购物卡一张</span><br />
+				</li>
+				<li class="clearfix">
+					<span class="lf text_p">二等奖(10名)：两张蜘蛛电影兑换券</span><br />
+				</li>
+				<li class="clearfix">
+					<span class="lf text_p">三等奖(20个）：(奥妙或蓝月亮)洗衣液1KG装一桶</span><br />
+				</li>
+			</ul>
+		</div>
+		<div class="cy_sort">
+			<h3><img src="images/ruleTitle.png"></h3>
+			<div class="clearfix descript_img">
+				<div class="img_code fl"><img src="images/codes.jpg" class="codes"/></div>
+				e达福是由中国地产私募基金领跑者——盛诺金基金投资，专注于O2O电子商务及金融服务的移动互联网创新型平台，通过“互动、共创、分享”的产品体验，针对房地产、度假运动、健康养生、有机农业等领域，开展众销、众筹、理财等业务，为用户在吃、穿、住、娱、乐、购等方面提供更方便更实惠的服务，通过与用户的共创共享，实现财富增值和幸福生活。
+			</div>
+			<div class="clearfix descript_img">
+				<div class="img_code_2 fr"><img src="images/ecode.jpg" class="ecode"/></div>
+				e销宝秉承分享经济的理念，针对e达福平台合作的房地产项目及有机生活、运动健康、度假养生等生活体验，以全民经纪人的模式实现全民共创、全民营销、全民赢利。所有注册加入e销宝的经纪人，没有性别、学历、年龄、职业限制，只要推荐客户并最终成交，经纪人就会获得佣金奖励。真正打破了销售壁垒，让每一个普通人能够参与到产品销售中，并通过分享信息获得回报。
+			</div>
+		</div>
+	</div>
+	</article>
+	<script type="text/javascript">
+		$(function(){
+//			console.log(document.documentElement.clientHeight)
+			var sHeight=document.documentElement.clientHeight;
+			var rankHeight=$("#ruleBut").height();
+			if(sHeight>rankHeight){
+				$("#ruleBut")[0].style.backgroundSize='20rem '+sHeight+"px";
+			}else{
+				$("#ruleBut")[0].style.backgroundSize='20rem '+rankHeight+"px";
+			}
+		})
+	</script>
+</body>
+</html>

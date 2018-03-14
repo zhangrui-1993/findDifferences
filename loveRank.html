@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--定义 title keywords description信息 start-->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="screen-orientation"content="portrait"/>
+    <title>爱心排行</title>
+	<!--引入外部样式-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+	</script>
+</head>
+<body id="loveRank">
+	<img src="images/rank.png" class="rank_title"/>
+	<!--<div class="loveRank_unit">（此处只显示前20名）</div>-->
+	<ul class="rank_box">
+		<li class="rank_list">
+			<span class="xuhao fl">1</span>
+			<img src="images/user_Title.png" class="user_title fl posAbs">
+			<span class="user_name text_l fl">张三丰</span>
+			<span class="unit fr">秒</span>
+			<span class="user_loveValue fr">5568</span>
+			<img src="images/rank_xian.png" class="rank_xian posAbs"/>
+		</li>
+		<li class="rank_list">
+			<span class="xuhao fl">22</span>
+			<img src="images/user_Title.png" class="user_title fl posAbs">
+			<span class="user_name text_l fl">张三丰张三丰张三丰张三丰张三丰张三丰张三丰张三丰张三丰张三丰张三丰张三丰张三丰张三丰</span>
+			<span class="unit fr">秒</span>
+			<span class="user_loveValue fr">525568</span>
+			<img src="images/rank_xian.png" class="rank_xian posAbs"/>
+		</li>		
+	</ul>
+	<script type="text/javascript">
+//		for (var i=0;i<100;i++) {
+//			$("<b> Hello World!</b>").appendTo("ul");
+//			var a=$('.rank_list').html();
+//			console.log(a)
+//			$("a").appendTo("ul")
+//		}
+		var sHeight=document.documentElement.clientHeight;
+		var rankHeight=$("#loveRank").height();
+		if(sHeight>rankHeight){
+			$("#loveRank")[0].style.backgroundSize='20rem '+sHeight+"px";
+		}else{
+			$("#loveRank")[0].style.backgroundSize='20rem '+rankHeight+"px";
+		}
+	</script>
+</body>
+</html>

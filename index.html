@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--定义 title keywords description信息 start-->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="screen-orientation"content="portrait"/>
+    <title>找不同赢大奖</title>
+	<!--引入外部样式-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+	</script>
+</head>
+<body id="index">
+	<img src="images/logo.png" class="posAbs logo"/>
+	<img src="images/index_bg.png" class="index_bg"/>
+	<img src="images/kuang.png" class="kuang posAbs"/>
+	<a href="gameStart.html" class="posAbs start"><img src="images/start_text.png" class="posAbs"/></a>
+	<a href="ruleBut.html" class="posAbs rule"><button>活动规则</button></a><a href="loveRank.html" class="posAbs rank"><button>排行榜</button></a>
+	<script type="text/javascript">
+		$(function(){
+			var bgHeight=document.documentElement.clientHeight;
+			var oHeight=document.documentElement.clientHeight;
+			var obbHeigt=(oHeight/4/10*8);
+			var rbHeigt=(oHeight/4/10*3);
+			var bxHeight=(oHeight/4/10*9);
+			var kHeight=oHeight/(document.documentElement.clientWidth/20)
+			$("#index").attr("height",oHeight);
+			$("#index .index_bg").attr("height",bgHeight);
+			$("#index")[0].style.height=bgHeight+"px";
+			$("#index .kuang")[0].style.bottom=(kHeight-15)/2+"rem";
+			$("#index .start")[0].style.bottom=(kHeight-15+4.8)/2+"rem";
+		})
+	</script>
+</body>
+</html>

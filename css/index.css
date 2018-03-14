@@ -1,0 +1,100 @@
+/*首页样式修改*/
+#index{position: relative;width: 20rem;z-index: 1;}
+#index .index_bg{width: 100%;position: absolute;top: 0;left: 0;z-index:2 ;}
+#index .baoxiang{position: absolute;width: 18rem;z-index: 9;left: 1rem;}
+#index .openBoxBut{position: absolute;z-index: 9;width: 11rem;left: 4.5rem;}
+#index .ruleBut{position: absolute;z-index: 9;width: 6.4rem;left: 2rem;}
+#index .rankingBut{position: absolute;z-index: 9;width: 6.4rem;right: 2rem;}
+#index .logo{top: 0.69rem;width: 4.1rem;margin-left: -2.05rem;}
+#index .rule{left:1.76rem}
+#index .rank{right: 1.76rem;}
+#index .rule,#index .rank{width: 6.93rem;height: 2.29rem;bottom: 2rem;}
+#index a button{width: 6.93rem;height: 2.29rem;border: 1px solid #ffec47;background: none;font-size: 0.91rem;color: #FFEC47;font-weight: bold;border-radius: 0.267rem;-webkit-border-radius: 0.267rem;-moz-border-radius: 0.267rem;}
+#index .kuang{width: 11.7rem;height: 11.7rem;left: 4.15rem;}
+#index .start{height: 6.4rem;width: 6.4rem;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;border: 0.267rem solid #ecda41;background: #FFEC47;left: 6.533rem;line-height: 6.4rem;}
+#index .start img{width:4.58rem;left: 0.91rem;height: 1.12rem;top: 2.63rem;}
+
+/* 活动规则*/
+
+#ruleBut{width: 20rem;position: relative;overflow-y: scroll;background: url(../images/rank_bg.png);background-size: 20rem;color: #ffec47;}
+#ruleBut article{ width: 20rem;overflow-x: hidden;}
+#ruleBut .cont_wrap{width: 94%; margin:0 auto; border-left: dashed 1px #ffc846;border-right: dashed 1px #ffc846;}
+#ruleBut .ruleBut_detail{margin: .43rem 0 1.65rem 0;}
+#ruleBut .ruleBut_detail h3{width: 12.74rem;margin: 0 auto;overflow: hidden;}
+#ruleBut .ruleBut_detail h3 img{width: 100%;}
+#ruleBut .ruleBut_detail .time1{margin:1rem 0;color:#ffec47;font-size: 0.746rem;width:100%;text-align: center;text-align: -moz-center;text-align: -webkit-center;margin-top: 1.2rem;}
+#ruleBut .ruleBut_detail h4{width: 100%; text-align: center; text-align: -moz-center;text-align: -webkit-center; margin:1.49rem 0 1.28rem 0; font-size: .6rem; font-weight: normal;}
+#ruleBut .one_p{color:#ffec47;font-size: 0.746rem;line-height:1rem;margin-top: .8rem;padding: 0 .5rem 0 1.5rem;text-indent:-1.06rem;}
+#ruleBut .bg_hg{ background: url(../images/icons1.png) no-repeat 0 -14rem; width: 1rem;height: 1rem;background-size: 2.5rem; display: inline-block; margin-right: .2rem}
+#ruleBut em{margin-left: .2rem}
+#ruleBut .two_p{ color: #fff;margin-top: .2rem}
+#ruleBut .red{color: #f87f50}
+#ruleBut .mt_0{ margin-top: 0}
+#ruleBut .cy_sort{ margin-top:1.2rem;padding: 0 .5rem;}
+#ruleBut .cy_sort h3{width: 8rem; margin: 0 auto;}
+#ruleBut .cy_sort h3 img{width: 100%;}
+#ruleBut .cy_sort .ecode{width: 5.6rem;height: 5.6rem;padding: 0.4rem;float: right;}
+#ruleBut .cy_sort .codes{width: 5.6rem;height: 5.6rem;padding: 0.4rem;}
+#ruleBut .first_p{ margin-top: .2rem}
+#ruleBut .numver{width: 5%;margin-left: 1.28rem;}
+#ruleBut .text_p{ width: 94%;}
+#ruleBut .texts_more{ text-indent: 1rem}
+#ruleBut .six_p{margin-top: 1rem}
+#ruleBut .six_p li{ padding: 0 0 0 1rem;text-indent:-1.06rem;margin: .2rem 0 .5rem;font-size: 0.746rem;line-height:1rem;color: #FFEC47;}
+#ruleBut .mt_8{ margin-top: .8rem}
+#ruleBut .mt2{ margin: .4rem 0}
+#ruleBut .one_text_img{ margin-top: .8rem;}
+#ruleBut .one_text_img .imgs{width: 4.47rem;}
+#ruleBut .mr4{ margin-right: .4rem}
+#ruleBut .ml4{ margin-left: .4rem}
+#ruleBut .one_text_img .imgs img{width: 100%}
+#ruleBut .clearfix .b{font-weight: bold;}
+#ruleBut .cy_sort .time1{text-align: center;text-align: -moz-center;text-align: -webkit-center;}
+#ruleBut .cy_sort .clearfix{font-size: 0.746rem;color: #ffec47;line-height: 1rem;margin-bottom: 0.8rem;}
+
+/*排行榜*/
+#loveRank{width: 20rem;position: relative;overflow: hidden;background: url(../images/rank_bg.png);background-size: 20rem;}
+#loveRank .rank_title{width: 14.53rem;margin-top: 0.53rem;}
+#loveRank .loveRank_unit{color:#ff9494;font-size: 0.746rem;margin-bottom: 0.4rem;}
+#loveRank .rank_box{overflow-y: scroll;}
+#loveRank .rank_list{width: 18.5rem;padding: 0 0.75rem;position: relative;height: 2.4rem;overflow:hidden;line-height: 2.4rem;}
+#loveRank .rank_list .rank_xian{width: 18.5rem;bottom: 0;left: 0.75rem;height: 1px;}
+#loveRank .xuhao{color: #ffec47;font-size: 0.96rem;display: inline-block;width: 0.6rem;}
+#loveRank .rank_list img.user_title{width: 1.6rem;height: 1.6rem;top:0.4rem;left: 2.2rem;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;}
+#loveRank .user_name{margin-left:3rem;width:10rem;display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;color: #e2d8ff;font-size: 0.8rem;/*margin-top: 0.8rem;*/}
+#loveRank .user_loveValue{color: #ffec47;font-size: 0.8rem;margin-right: 0.2rem;}
+#loveRank .unit{color: #e2d8ff;font-size: 0.8rem;}
+
+/*游戏开始*/
+#gameStart{width: 20rem;position: relative;overflow: hidden;background: url(../images/rank_bg.png);background-size: 20rem;margin: 0px;padding: 0px;font-family: "microsoft yahei";}
+#gameStart .game_header {text-align: center;	width: 20rem;}
+#gameStart .title_bg{width: 14.85rem;margin-left: 2rem;height: 7.25rem;margin-top: -1.2rem;}
+#gameStart .game_con{width: 100%;height: auto;width: 20rem;}
+#gameStart h3 {color: #e2d8ff;	font-size: 0.8rem;width: 18.4rem;margin: 0 auto;height: 2.13rem;background: #470299;line-height: 2.13rem;font-weight: bold;border-radius: 1.5rem;-webkit-border-radius: 1.5rem;-moz-border-radius: 1.5rem;}
+#gameStart span {color: #f4e93b;font-size: 18px;}
+#gameStart strong {	color: #f4e93b;}
+#gameStart a {text-decoration: none;}
+#gameStart .pic_introduce{font-size: 0.69rem;color: #c9ddff;text-align: left;text-align: -moz-left;text-align: -webkit-left;width: 19.4rem;margin-left: 0.5rem;word-spacing: normal;}
+#gameStart .game_footer {text-align: center;padding-top: 0.8rem;width: 100%;font-size: 0.746rem;}
+#gameStart .info {font-weight: bold;color: #e2d8ff;text-align: center;text-align: -webkit-center;text-align: -moz-center;padding-top: 0.8rem;font-size: 0.746rem;}
+#gameStart .info span{font-weight: bold;margin: 0 0.2rem;}
+#gameStart .timecounter {font-weight: bold;color: #e2d8ff;font-size: 0.746rem;}
+#gameStart .timecounter span{font-weight: bold;margin: 0 0.2rem;}
+#gameStart .piccell {display: block;background-repeat: no-repeat;float: left;position: relative;}
+#gameStart .picbox {width: 340px;height: 280px;clear: both;}
+#gameStart .picbox .pic_left{margin-right: 20px;}
+#gameStart .progressbox {width: 20rem;margin-bottom: 0.8rem;text-align: center;text-align: -webkit-center;text-align: -moz-center;}
+#gameStart .floatmask {position: absolute;z-index: 100;}
+#gameStart .showborder {border: red solid 1px;}
+#gameStart h3 span{color: #e2d8ff;font-size: 0.8rem;}
+
+/*点炫耀一下展示的分享的样式*/
+#gameStart .share {	width: 100%;display: none;opacity: 0.90;position: absolute;	top: 0px;left: 0px;	z-index: 10000;	background-color: #000;	height: 600px;	text-align: center;}
+#gameStart .share img {	margin-top: 30px;width: 80%;}
+#gameStart .amsmobi_dialog{border: 2px solid #9b47ff;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;background: #470299;}
+#gameStart .amsmobi_dialog header h2{color: #e2d8ff;}
+#gameStart .amsmobi_dialog section{color: #e2d8ff;}
+#gameStart .amsmobi_dialog footer{background: #ffec47;border-top: 2px solid ##9b47ff;border-radius: 0 0 3px 3px;}
+#gameStart .amsmobi_dialog footer a{color: #470299;}
+#gameStart .amsmobi_dialog footer a:nth-of-type(2){display: none;}
+#gameStart .amsmobi_dialog .num_ys{color: #ffec47;font-size: 100%;padding: 0 3px;}

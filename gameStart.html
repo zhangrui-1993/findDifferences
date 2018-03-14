@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="author" content="Tencent-TGideas">
+<link rel="stylesheet" href="css/style.css">
+<title>找不同赢大奖</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<script src="js/zepto.js" type="text/javascript"></script>
+<script src="js/data.js?v=20140811" id="gamedata" data-version="20140811" type="text/javascript"></script>
+<script src="js/game.js" type="text/javascript"></script>
+<script type="text/javascript">
+	document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+</script>
+</head>
+<body id="gameStart">
+<header class="game_header">
+	<img src="images/title_bg.png" class="title_bg"/>
+    <h3><span>奥伦达部落.五云山（郑州）-第</span><strong id="currLevel">1</strong>关</h3>
+</header>
+<section class="game_con">
+  <div class="find_con">
+    <div class="info">共<span id="totalNum">6</span>处不同,已找<span id="clickNum">0</span>次，正确<span id="correctNum">0</span>次<!--，正确率<span id="correctPecent">0</span>%--></div>
+    <div class="progressbox">
+      <!--<div class="progress" style="width:260px;float:left;">
+        <div class="progress-bar" id="progressbar"></div>
+      </div>-->
+      <span class="timecounter"> 本关使用<span id="timeshow">0</span>秒 </span>
+      <span class="timecounter"> 本次使用<span id="timeshowSum">0</span>秒 </span>
+    </div>
+  </div>
+  <div class="picbox" id="picbox">
+    <div class="piccell pic_left" id="leftpic"> </div>
+    <div  class="piccell" id="rightpic"> </div>
+  </div>
+</section>
+<!--分享链接显示弹幕-->
+<div class="layer_fixed_1 fixed_back">
+	<div class="t_code_img_1">
+		<img src="images/jt_1.png" />
+	</div>
+</div>
+<footer class="game_footer"> 
+<!--<a href="#" target="_blank" id="bottom_banner"><img src="" style="width:100%"></a> -->
+<div class="pic_introduce">
+	中国居易五云山度假休闲体验区——是一个使您忘掉一切而让您拥有遐想的地方
+</div>
+</footer>
+<div class="share" id="share"> <img src="images/share1.png" /> </div>
+<script type="text/javascript">
+	$(function(){
+//		$("#gameStart").
+	    picgame.gamestart();
+		var sHeight=document.documentElement.clientHeight;
+		var sWidth=document.documentElement.clientWidth;
+		var rankHeight=$("#gameStart").height();
+		$("#gameStart #picbox")[0].style.marginLeft=(sWidth-340)/2+"px";
+		if(sHeight>rankHeight){
+			$("#gameStart")[0].style.backgroundSize='20rem '+sHeight+"px";
+		}else{
+			$("#gameStart")[0].style.backgroundSize='20rem '+rankHeight+"px";
+		}
+	});
+ </script>
+
+</body>
+</html>
